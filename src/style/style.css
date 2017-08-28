@@ -1,0 +1,340 @@
+/*清零*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,span,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;}
+fieldset,img { border:0;}
+ol,ul { list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea { font-size:100%;
+    font-weight: normal; }
+button::-moz-focus-inner,input::-moz-focus-inner{ padding:0; border:0; }
+table{ border-collapse: collapse; border-spacing: 0; }
+i, cite, em, var, dfn, address { font-style: normal; }
+a{ text-decoration:none; outline: none;}
+a:hover{ text-decoration: none; }
+a:active, a:focus{ outline:none; }
+
+input ,button{ border: none; outline: none;}
+
+html {
+  width: 100%;
+  height: 100%;
+  /*overflow: hidden;*/
+}
+ /*-webkit-overflow-scrolling: touch;*/
+body {
+  width: 100%;
+  height: 100%;
+  background:  #EFEFF4;
+  overflow: hidden;
+  font-family: PingFangSC-Regular;
+  -webkit-overflow-scrolling: touch;
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+.mint-button{
+  height:47px;
+  color:#fff;
+}
+
+.bgfff{
+    background: #fff;
+}
+.pdl15{
+    padding-left: 15px;
+} 
+.pdr15{
+    padding-right: 15px;
+}
+.mr5{
+    margin-right: 5px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.padb10{
+    padding-bottom: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}  
+.tac{
+    text-align: center;
+}
+.tar{
+    text-align: right
+}
+.strong{
+  font-weight: bold;
+}
+.vm{
+    vertical-align: middle;
+}
+.colblue{
+    color:#00aeaf;
+}
+.colyellow{
+    color:#f97900;
+}
+.col333{
+    color: #333;
+}
+.col666{
+    color: #666;
+}
+.col888{
+    color: #888;
+}
+.col999{
+    color: #999;
+}
+.colblue{
+  color:#00ADAE;
+}
+.col3a3a3a{
+    color:#3a3a3a;
+}
+.font12{
+    font-size: 12px;
+}
+.font20{
+    font-size: 20px;
+}
+.relative{
+    position: relative;
+}
+.overflow{
+  overflow: hidden;
+}
+.textover{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
+.ellipsis .mint-cell-wrapper{
+  display: block;
+}
+
+.ellipsis .mint-cell-text
+{
+  display: block;
+  line-height: 48px;
+  width:100%;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.border-tb-1px:after{
+    content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  box-sizing: border-box;
+}
+.border-t-1px:before{
+    content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  box-sizing: border-box;
+}
+.border-1px:after{
+    content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  box-sizing: border-box;
+}
+.hidespan:after{
+    content:"";
+    position: absolute;
+    top: 2px;
+    right: -20px;
+    border-right: 1px solid #c4c4c9;
+    border-top: 1px solid #c4c4c9;
+    height: 5px;
+    width: 5px;
+    transform: rotate(deg);
+    -webkit-transform: rotate(135deg);
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+  /*交易查询*/
+  .selectTool{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+       display: -webkit-flex; 
+       display: flex;
+       height:44px;
+       line-height: 44px;
+       font-size: 14px;
+       background: #fff;
+  }
+  .tool-name,.tool-time{
+    flex:1;
+    box-sizing:border-box;
+    position: relative;
+    width:50%;
+  }
+  .tool-name:after{
+    content: "";
+    width:1px;
+    height: 14px;
+    border-right:1px solid #A3B7BA;
+    position: absolute;
+    top: 15px;
+    right: 0;
+  }
+
+.arrow-info:before {
+    content:"";
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    height: 5px;
+    width: 5px;
+    transform: rotate(deg);
+    -webkit-transform: rotate(135deg);
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.arrow-info-blue-t:before{
+    border-right: 1px solid #00adae;
+    border-top: 1px solid #00adae;
+
+}
+.arrow-info-blue-b:before{
+    top:20px;
+    border-left: 1px solid #00adae;
+    border-bottom: 1px solid #00adae;
+}
+
+
+/*.arrow-info-blue:before{
+    border-right: 1px solid #00adae;
+    border-top: 1px solid #00adae;
+}*/
+/*.arrow-info-grey:before{
+    border-right: 1px solid #999;
+    border-top: 1px solid #999;
+}*/
+.toolText{
+    width:85%;
+    padding-right: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.toolText p{
+  text-align: center;
+  line-height: 1;
+}
+.toolText .startDate{
+  margin-top: 6px;
+  margin-bottom: 2px;
+  padding-left: 6px;
+}
+
+.nomore{
+    font-size: 13px;
+    padding: 20px 0;
+    color:#666;
+}
+
+
+.time{
+  position: fixed;
+  padding-top: 54px;
+  top:0;
+  bottom: 0;
+  width:100%;
+
+  background: #EFEFF4;
+  z-index: 100;
+}
+
+.time-header{
+  padding-bottom: 100px;
+  background: #fff;
+  height:100%;
+}
+
+/*prop*/
+.mint-popup-top{
+  background: red;
+  width:100%;
+  font-size: 13px;
+  color:#fff;
+  text-align: center;
+  line-height: 34px
+}
+/*绿色边框标题*/
+.border-title{
+  position: relative;
+  text-indent: 15px;
+}
+.border-title:before{
+  position: absolute;
+  z-index: 9;
+  left:0;
+  top:16px;
+  left:10px;
+  content: "";
+  height:16px;
+  border-left:3px solid #06ACAD;
+  border-radius: 2px;
+}
+.loadDataInfo{
+  color:#777;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0;
+}
+.pullUpload{
+  width:30px;
+  height:30px;
+  display: block;
+  margin:15px auto;
+}
+.scrollY{
+  -webkit-overflow-scrolling: touch;
+}
+.nodata{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color:#999;
+    font-size: 14px;
+}
+.bankData{
+    padding-top: 50%;
+    text-align: center;
+    color:#999;
+    font-size: 14px;
+}
+.binding .mint-field .mint-cell-title{
+  width:80px;
+}

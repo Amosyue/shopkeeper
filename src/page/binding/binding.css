@@ -1,0 +1,16 @@
+.binding{
+  padding-top: 15px;
+}
+.bindingbtn{
+  position: relative;
+  margin: 30px auto 10px
+}
+.mint-button{
+  background: #a4dbd5;
+}
+.bindingbtn .active{
+  background: #06C1AE
+}
+.mint-field{
+  padding-left: 5px;
+}

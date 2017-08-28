@@ -1,0 +1,59 @@
+.content{
+	padding-top:54px;
+}
+.title{
+	height:46px;
+	line-height: 46px;
+	padding-left: 13px;
+}
+.list{
+	padding-left: 13px;
+}
+.list li{
+   display: -webkit-flex; 
+   display: flex;
+   height: 60px;
+   padding-right:13px;
+   position: relative;
+}
+.list li p{
+	margin-bottom: 2px;
+}
+ .sale-l{
+    flex:1;
+    box-sizing:border-box;
+  }
+  .sale-c{
+    flex:3;
+   	margin-top: 10px;
+  }
+  .sale-r{
+    flex:3;
+    margin-top: 8px;
+  }
+ .sale-l span{
+ 	display: block;
+ 	width: 34px;height: 34px;line-height: 34px;margin-top:13px;border-radius: 50%;
+ 	text-align: center;font-size: 20px;color:#fff;
+ }
+ .income{
+ 	background: #5FA2F3;
+ }
+ .refund{
+ 	background: #94C400;
+ }
+ .blank{
+  text-align: center;
+  color:#999;
+  padding-top: 50%;
+  font-size: 14px;
+ }
+ .loading{
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+  color:#888;
+ }
+ .mint-spinner-fading-circle{
+  margin: 5px auto;
+ }

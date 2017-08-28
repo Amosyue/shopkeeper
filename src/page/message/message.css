@@ -1,0 +1,99 @@
+.content{
+	padding:54px 0 10px;
+}
+.bank{
+	background: #fff
+}
+.bankInfo{
+	height:100px;
+	color:#fff;
+	margin:0 13px 13px;
+	padding: 16px;
+	border-radius: 3px;
+	box-sizing:border-box;
+}
+.test{
+  position: relative;
+}
+.redbg{
+	background: #ca566b
+}
+.orgbg{
+	background: #df8a38
+}
+.bluebg{
+	background: #296596
+}
+.greenbg{
+	background: #0e7969
+}
+.pupbg{
+	background: #613a73
+}
+.bankcard{
+	margin-bottom: 15px;
+}
+.cardImg{
+	margin-right: 5px;
+}
+.cardNum span{
+	margin-right: 25px;
+	opacity: 0.5;
+	font-size: 21px;
+	letter-spacing: 3px
+}
+.bankwarn{
+	height:30px;
+	line-height: 30px;
+	background: #fff7d6;
+	color:#BEA064;
+	padding-left:13px;
+	font-size: 13px;
+}
+.title{
+	height:36px;
+	line-height: 36px;
+	padding-left: 13px;
+	color:#666;
+	background: #f9f9f9
+}
+.datalist .border-1px:after{
+	border-bottom: 1px solid #efefef;
+}
+.list{
+	padding-left: 13px;
+}
+.list li{
+   display: -webkit-flex; 
+   display: flex;
+   height: 60px;
+   padding-right:13px;
+   position: relative;
+}
+.list li:last-child:after{
+	border:0;
+}
+.list li p{
+	margin-bottom: 2px;
+}
+ .sale-l{
+    flex:1;
+    box-sizing:border-box;
+    margin-top: 10px;
+  }
+  .sale-c{
+    flex:1;
+   	margin-top: 10px;
+  }
+  .sale-r{
+    flex:1;
+    margin-top: 10px;
+  }
+
+ 
+ .nomore{
+ 	font-size: 13px;
+ 	text-align: center;
+ 	color: #666;
+ 	padding:20px 0 30px;
+ }

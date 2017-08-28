@@ -1,0 +1,59 @@
+.brand .mint-cell-title{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.brand img{
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.myAccount .mint-button{
+  background: #f8f8f8;
+  font-size: 18px;
+  color: #333;
+}
+.more{
+  height:40px;
+  line-height: 40px;
+  background: #f9f9f9;
+  text-align: center;
+  font-size: 13px;
+  color:#666;
+  margin-bottom: 30px;
+}
+.unbundling{
+  position: fixed;
+  bottom: 20px;
+  width:100%;
+}
+.success{
+  padding:35px 0 20px;
+  overflow: hidden;
+}
+#successpng{
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin:0 auto;
+}
+.warninfo{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.mint-msgbox{
+  width:80%;
+  top:45%;
+}
+.mint-msgbox-header{
+  padding-top: 25px;
+}
+.mint-msgbox-title{
+  font-size: 18px;
+  font-weight: normal;
+}
+.mint-msgbox-btns{
+  font-size: 18px;
+  height:44px;
+  line-height: 44px;
+}
+.mint-msgbox-confirm{
+  color:#00ADAE;
+}
